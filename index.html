@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Roboto&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="mainContent">
+        <div class="headContainer">
+            <div class="whatsAppText">
+                <p>WhatsApp</p>
+            </div>
+
+            <div class="headRightContent">
+                <i id="camera" class="fa fa-camera" aria-hidden="true"></i>
+
+                <!-- <img class="search" src="whatsapp-search-contact-icon-mobile-260nw-471547313.jpg" alt=""> -->
+                <!-- <p>:</p> -->
+                <i is="search" class="fa fa-search" aria-hidden="true"></i>
+                <i id="ellipsis" class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="navigator">
+            <p class="btn" id="chatbtn" onclick="modifybar1()">CHAT<span></span></p>
+            <p class="btn" id="statusbtn" onclick="modifybar2()">STATUS<span></span></p>
+            <p class="btn" id="callsbtn" onclick="modifybar3()">CALLS<span></span></p>
+        </div>
+
+        <div id="navBar" class="navigatorBar">
+            <div id="BC" class="barContainer">
+                <div id="b1" class="bar"></div>
+                <div id="b2" class="bar"></div>
+                <div id="b3" class="bar"></div>
+            </div>
+
+        </div>
+
+        <!-- contact card start -->
+        <div class="screen">
+            <div id="contact">
+                <!-- <img id="msglogo" class="whatsappmsglogo" src="WhatsAppMagdownload.png" alt=""> -->
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="DevamIMG.jpg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images.jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="image (1).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images (17).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="person-7243410_1280.webp" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images 00.jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images (4).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="kristina-makeeva-eoy-photo-1.jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="female-face-eye-level-portrait.webp" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images (13).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="istockphoto-1364917563-612x612.jpg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="download.jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="download (1).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="person-7243410_1280.webp" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images (13).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="images (14).jpeg" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="person-7243410_1280.webp" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="" class="cardContainer">
+                    <div class="imgbox">
+                        <img class="profilePic" src="person-7243410_1280.webp" alt="">
+                    </div>
+
+                    <div class="boxItems">
+                        <div id="" class="innerContainer">
+                            <h4 style="margin-top: 18px" class="username">Name</h4>
+                            <p class="msgTime">9:15 am</p>
+                        </div>
+
+                        <div class="innerContainer2">
+                            <p id="" class="lastMsgPreview">Where are you?</p>
+                            <p class="numberOfMsg">1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact card end -->
+
+            <!-- Status start -->
+            <div id="sS" class="statusSection">
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="person-7243410_1280.webp" style="width: 60px; height: 60px; border-radius: 50%;">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                        <div class="statusContent">
+                            <h5>Add status</h5>
+                            <p>Tap to add status update</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <h4 class="recentUpdateText">Recent updates</h4>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="images (4).jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="images.jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="images (13).jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="images (14).jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="DevamIMG.jpg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="image (1).jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="myStatus">
+                            <img src="images (17).jpeg"
+                                style="width: 60px; height: 60px; border-radius: 50%; border: 3.5px solid green;">
+                        </div>
+                        <div class="statusContent">
+                            <h5>Name</h5>
+                            <p>10 minutes ago</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Status End -->
+
+            <!-- Call start -->
+            <div id="callSection" class="call">
+                <ul>
+                    <li>
+                        <div class="callLinkIcon">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                        <div class="callLinkText">
+                            <h5>Create a call link</h5>
+                            <p>Share call link for your WhatsApp call</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <h4 class="recentCallText">Recent</h4>
+<!-- Caller card  -->
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="image (1).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="download (1).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="DevamIMG.jpg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="images (13).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="person-7243410_1280.webp", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="images (14).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="images (17).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="images (2).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="callPersonImage">
+                            <img src="images (4).jpeg", style="width: 60px; height: 60px; border-radius: 50%">
+                        </div>
+
+                        <div class="callPersonText">
+                            <h5>Name</h5>
+                            <!-- <i class="fa fa-arrow"><img width="24" height="24"
+                                    src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                    alt="down-left-arrow" /></i> -->
+                            <p> <img width="24" height="24"
+                                src="https://img.icons8.com/material-sharp/24/000000/down-left-arrow.png"
+                                alt="down-left-arrow" /> Month 17, 8:37 PM </p>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Call end -->
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+<video id="player" controls autoplay></video>
+<button id="capture">Take Picture</button>
+<button id="stopCamera">Stop Camera</button>
+<canvas id="canvas" width="320" height="240"></canvas> 
+
+
+</body>
+
+</html>

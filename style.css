@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #a6a6a6;
+    margin: 0;
+  }
+  
+  #mainContent {
+    width: 414px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    /* background: #ffffff; */
+  }
+  
+  .headContainer {
+    display: flex;
+    justify-content: space-between;
+    background: #1a867c;
+    padding-left: 14px;
+    height: 70px;
+    align-items: center;  /* Vertically align contents */
+  }
+  
+  .whatsAppText {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .headRightContent {
+    color: #ffffff;
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+    margin-top: 22px;
+    font-size: 20px; 
+  }
+  
+  .headRightContent p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    margin-right: 10px;
+  }
+  .headRightContent i{
+    cursor: pointer;
+  }
+  .headRightContent i:hover{
+    color:#c3c3c3;
+  }
+
+  .search{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+
+  .navigator{
+    height: 5.8vh;
+    background: #1a867c;
+    color: #ffffff;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-evenly;
+}
+.navigator:hover{
+  cursor: pointer;
+}
+.navigator p{
+    height: 18px;
+   color: #d9d9d9;
+}
+
+ .navigatorBar{
+  display: flex;
+  background: #1a867c;
+  height: 3px;
+  justify-content: space-evenly;
+}
+.navigatorBar>.barContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.bar{
+  width: 96px;
+  height: 3.4px;
+  border-radius: 5px;
+  background:#ffffff;
+}
+#b1{
+  box-shadow: 0 6px 6px 6px grey;
+}
+.statusSection ul li:hover{
+  cursor: pointer;
+  background: #d3d3d3;
+}
+
+/*MsgBoxCss*/
+
+.screen{
+  width: 414px;
+  height: 450px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+#contact{
+  position: absolute;
+}
+.whatsappmsglogo{
+  position: fixed;
+  top: 600px;
+  left: 910px;
+  width: 50px;
+  background: green;
+  border-radius: 30%;
+}
+.whatsappmsglogo:hover{
+  cursor: pointer;
+}
+.cardContainer{
+  overflow-y: scroll;
+    width: 414px;
+    margin-top: 8px;
+    background-color: #ffffff;
+    display: flex;
+    cursor: pointer;
+}
+.cardContainer:hover{
+  
+  background-color: #cecece;
+}
+.imgbox{
+  width: 60px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 7px;
+}
+.profilePic{
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profilePic h4{
+  margin-top: 18px;
+}
+.boxItems{
+    width: 320px;
+    margin-right: 8px;
+}
+.innerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.innerContainer .msgTime{
+  color: green;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.innerContainer2{
+    display: flex;
+    justify-content: space-between;
+}
+.innerContainer2 .lastMsgPreview{
+  color: rgba(170, 170, 170, 0.849);
+  font-size: 13px;
+}
+.innerContainer2 .numberOfMsg{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+.statusSection{
+  width: 414px;
+  height: 465px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 100%;
+}
+.statusSection ul li{
+  display: flex;
+    padding: 12px;
+}
+.myStatus{
+  margin-right: 15px;
+}
+.myStatus img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.fa-plus{
+  position: absolute;
+    top: 48px;
+    left: 54px;
+    color: white;
+    background: #008c00;
+    border: 3px solid #367821;
+    font-size: 1.2rem;
+    border-radius: 8px
+}
+.statusContent{
+  margin-top: 11px;
+}
+.statusContent h5{
+  font-size: medium;
+}
+.statusContent p{
+  color: #b3b3b3;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.recentUpdateText{
+  margin-left: 14px;
+    color: #c1c1c1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.call{
+  width: 414px;
+  height: 465px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 100%;
+}
+.call ul:hover{
+  cursor: pointer;
+  background: #d3d3d3;
+}
+.call ul{
+  padding: 12px;
+}
+.call ul li{
+  display: flex;
+}
+.callLinkIcon{
+  color: #ffffff;
+  background: green;
+  height: 59px;
+  width: 60px;
+  border: 15px solid green;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.callLinkText h5{
+  margin-top: 8px;
+  font-size: large;
+}
+.callLinkText p{
+  margin-top: 4px;
+  color: #949494;
+}
+.recentCallText{
+  margin-left: 14px;
+  margin-top: 11px;
+  color: #c5c5c5;
+  font-weight: 400;
+}
+
+.callPersonImage{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.callPersonText{
+  margin-left: 15px;
+  position: relative;
+}
+.callPersonText h5{
+  font-size: large;
+    margin-top: 6px;
+}
+.callPersonText p{
+  margin-top: 3px;
+  color: #949494;
+}
+.callPersonText p img{
+  width: 20px;
+  height: 20px;
+}
+.callPersonText i{
+  position: absolute;
+  top: 10px;
+  left: 270px;
+  font-size: 34px;
+  color: red;
+}
+/**/
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/**/
+
+/* Video Player */
+
+#player{
+  position: absolute;
+  top: 10px;
+  width: 250px;
+  height: 200px;
+  display: none;
+}
+#capture{
+  position: absolute;
+  top: 220px;
+  display: none;
+}
+#stopCamera{
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  display: none;
+}
+#canvas{
+  position: absolute;
+  left: 0;
+  top: 260px;
+  width: 250px;
+  display: none;
+}
