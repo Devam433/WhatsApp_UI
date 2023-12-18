@@ -18,26 +18,27 @@ A simple WhatsApp user interface built using HTML, CSS, and JavaScript. This pro
    ```bash
    git clone https://github.com/your-username/whatsapp-ui.git
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 cd whatsapp-ui
 
-Open the project in your code editor:
+3. **Open the project in your code editor:**
 code .
-//Replace code with the command for your specific code editor (e.g., atom ., subl ., etc.).
 
-##Open the project in a web browser:
+[Replace code with the command for your specific code editor (e.g., atom ., subl ., etc.)]
+
+5. **Open the project in a web browser:**
 Double-click on the index.html file to open it in your default web browser.
 Ensure JavaScript is enabled for full functionality.
 
-##Explore the WhatsApp UI:
+**Explore the WhatsApp UI:**
 Open index.html in your web browser to interact with the WhatsApp UI. Familiarize yourself with the features and layout.
 
-##Camera Functionality:
+## Camera Functionality:
 Click on the camera icon to activate the camera.
 Capture a photo and send it as a message.
 
-Customization:
+## Customization:
 Feel free to customize the UI, add new features, or modify the existing code according to your preferences.
 
-##Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
