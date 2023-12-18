@@ -19,9 +19,11 @@ A simple WhatsApp user interface built using HTML, CSS, and JavaScript. This pro
    git clone https://github.com/your-username/whatsapp-ui.git
 
 2. **Navigate to the project directory:**
+   ```bash
 cd whatsapp-ui
 
-3. **Open the project in your code editor:**
+4. **Open the project in your code editor:**
+   ```bash
 code .
 
 [Replace code with the command for your specific code editor (e.g., atom ., subl ., etc.)]
